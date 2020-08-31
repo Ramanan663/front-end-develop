@@ -1,0 +1,31 @@
+body {
+  color: red;
+  background-color: lightblue;
+}
+
+.black-border {
+  border: 2px solid black;
+}
+
+#green-background {
+  background-color: lightblue;
+  font-style: oblique;
+}
+
+a {
+  color: rgb(27, 23, 27);
+  font-style: italic;
+}
+#method {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(27, 9, 185);
+  border: 2px solid black;
+  padding: 1%;
+}
+
+img {
+  border: 3px dashed rgb(39, 3, 3);
+}
+footer {
+  font-size: 20px;
+}
