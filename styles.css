@@ -1,10 +1,16 @@
+* {
+  margin: 2%;
+}
 body {
   color: red;
   background-color: lightblue;
 }
+main {
+  border: 3px solid brown;
+}
 
-.black-border {
-  border: 2px solid black;
+header {
+  border: 3px solid white;
 }
 
 #green-background {
@@ -20,12 +26,33 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(27, 9, 185);
   border: 2px solid black;
-  padding: 1%;
+  border-radius: 15px;
+  padding: 5%;
 }
 
 img {
+  height: 150px;
+  width: 200px;
   border: 3px dashed rgb(39, 3, 3);
 }
 footer {
   font-size: 20px;
+  border: 3px solid orangered;
+  padding: 10px 5px 0px 100px;
+}
+#ingrediant {
+  border: 2px solid palevioletred;
+  background-color: white;
+  padding: 10px 5px;
+}
+#google {
+  margin: 0 auto;
+}
+.moresoep a {
+  text-decoration: none;
+  display: flex;
+}
+.moresoep {
+  display: flex;
+  padding: 5px 5px;
 }
